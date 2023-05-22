@@ -54,10 +54,10 @@ arepas_menu=Menu("arepas_menu",{
 
 flagship_store = Franchise("1232 West End Road", [brunch, early_bird, dinner,kids])
 new_installment = Franchise("12 East Mulberry Street",[brunch, early_bird, dinner,kids])
-arepas_place = Franchise("189 Fitzgerakd Avenue",arepas_menu)
+arepas_place = Franchise("189 Fitzgerakd Avenue",[arepas_menu])
 
 Business_1 = Business("Basta Fazoolin' with my Heart",[flagship_store, new_installment])
-Business_2= Business("Take a' Arepa", arepas_place)
+Business_2= Business("Take a' Arepa", [arepas_place])
 
 #commit to GITHUB
 #print(flagship_store.available_menus(17))
